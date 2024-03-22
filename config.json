@@ -2,7 +2,7 @@
   "plugin": "DiscordStats",
   "enabled": true,
   "discordClient": "discord",
-  "database": "mysql",
-  "channelID": "1212750415909879898",
+  "database": "mysql", // Replace this with any DB you use "mongoDB, sqlite, or keep it as mysql
+  "channelID": "put_channel_ID_here",
   "prefix": "!"
 }
