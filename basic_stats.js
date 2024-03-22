@@ -137,7 +137,7 @@ export default class DiscordStats extends BasePlugin {
         });
 
         this.createModel(
-            'Player',
+            'Players',
             {
                 id: {
                     type: DataTypes.INTEGER,
@@ -345,7 +345,7 @@ export default class DiscordStats extends BasePlugin {
         await this.models.Match.sync();
         await this.models.TickRate.sync();
         await this.models.PlayerCount.sync();
-        await this.models.Player.sync();
+        await this.models.Players.sync();
         await this.models.Wound.sync();
         await this.models.Death.sync();
         await this.models.Revive.sync();
